@@ -1,4 +1,8 @@
 • What is a gitignore file and what should it include for a Java project?
+- It notifies about all those untraceable files that might possibly be ignored by git. The file consists of some patterns. Git verifies those patterns , before proceeding whether to ignore them or not.
 • What does fast-forward in git mean?
-• Why should youhavedifferent branches?
+- Merge commit gets created by the merging feature branch , on divergence of master after the creation of branch. The given term in the question means - git will be pointing to the latest commit of feature ranch , rather than creating a new commit.
+• Why should you have different branches?
+- Rather than copying all the files from one directory to another direactory, it simply contains branch as a medium to commit.
 • In a project how many remote Git repositories do you usually have?
+- We can have single or multiple remote git repositories.
